@@ -1,4 +1,2 @@
-Welcome to the Playlist 1
-=========================
-
-Version 1 of the Playlist application
+##Version Vintage Guitar Site web application
+Add, delete and update vintage guitars
