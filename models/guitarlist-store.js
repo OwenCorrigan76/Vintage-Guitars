@@ -12,11 +12,20 @@ const guitarListStore = {
     return _.find(this.guitarListCollection, { id: id });
   },
 
+  addModel(id, model) {
+    const guitars = this.getGuitarList(id);
+    guitars.models.push(model);
+  },
+
   deleteModel(id, modelId) {
     const guitars = this.getGuitarList(id);
     _.remove(guitars.models, { id: modelId });
   },
 
+
+  addGuitarList(guitars) {
+    this.guitarListCollection.push(g);
+  },
   deleteGuitarList(id) {
     _.remove(this.guitarListCollection, { id: id });
   },

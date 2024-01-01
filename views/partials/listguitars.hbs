@@ -1,7 +1,6 @@
 <table class="ui table">
   <thead>
   <tr>
-    <th>ID</th>
     <th>Make</th>
     <th>Type</th>
     <th>Year</th>
@@ -11,9 +10,6 @@
   <tbody>
   {{#each guitars.models}}
     <tr>
-      <td>
-        {{id}}
-      </td>
       <td>
         {{title}}
       </td>
@@ -25,6 +21,11 @@
       </td>
       <td>
         {{price}}
+      </td>
+      <td>
+        <a href="/model/{{../guitars.id}}/editmodel/{{id}}" class="ui icon button">
+          <i class="pencil alternate icon"></i>
+        </a>
       </td>
       <td>
         <a href="/guitars/{{../guitars.id}}/deletemodel/{{id}}" class="ui icon button">
