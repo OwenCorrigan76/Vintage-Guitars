@@ -1,0 +1,44 @@
+{
+  "guitarListCollection": [
+  {
+    "id" : "01",
+    "title": "Gibson Guitars",
+    "models": [
+      {
+        "id" : "04",
+        "title": "Gibson",
+        "type": "Les Paul",
+        "year": "1959",
+        "price": "$5000"
+      },
+      {
+        "id" : "05",
+        "title": "Gibson",
+        "type": "Explorer",
+        "year": "1969",
+        "price": "$6000"
+      }
+    ]
+  },
+  {
+    "id" : "02",
+    "title": "Fender Guitars",
+    "models": [
+      {
+        "id" : "07",
+        "title": "Fender",
+        "type": "Telecaster",
+        "year": "2000",
+        "price": "$8000"
+      },
+      {
+        "id" : "08",
+        "title": "Fender",
+        "type": "Stratocaster",
+        "year": "1965",
+        "price": "$3000"
+      }
+    ]
+  }
+]
+}

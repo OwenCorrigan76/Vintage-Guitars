@@ -1,0 +1,36 @@
+<table class="ui table">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Make</th>
+    <th>Type</th>
+    <th>Year</th>
+    <th>Price</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each guitars.models}}
+    <tr>
+      <td>
+        {{id}}
+      </td>
+      <td>
+        {{title}}
+      </td>
+      <td>
+        {{type}}
+      </td>
+      <td>
+        {{year}}
+      </td>
+      <td>
+        {{price}}
+      </td>
+      <td>
+        <a href="/guitars/{{../guitars.id}}/deletemodel/{{id}}" class="ui icon button">
+          <i class="icon trash"></i></a>
+      </td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
