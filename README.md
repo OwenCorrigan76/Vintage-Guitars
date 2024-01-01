@@ -1,2 +1,3 @@
-##Version Vintage Guitar Site web application
-Add, delete and update vintage guitars
+## Vintage Guitar Site web application
+
+### Add, delete and update vintage guitars
