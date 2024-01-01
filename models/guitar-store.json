@@ -9,10 +9,10 @@
           "title": "T90 ",
           "type": "1999",
           "year": "2001",
-          "price": 1999
+          "price": "1999"
         }
       ],
-      "price": 1999
+      "price": "999"
     },
     {
       "id": "c0763810-a8c9-11ee-aa2c-7d45e1cda0ef",
@@ -23,10 +23,10 @@
           "title": "Gibson",
           "type": "3000",
           "year": "1976",
-          "price": 3000
+          "price": "3000"
         }
       ],
-      "price": 3000
+      "price": "3000"
     },
     {
       "id": "d71aba50-a8c9-11ee-aa2c-7d45e1cda0ef",
@@ -37,10 +37,10 @@
           "title": "Fender",
           "type": "1599",
           "year": "1989",
-          "price": 1599
+          "price": "1599"
         }
       ],
-      "price": 1599
+      "price": "1599"
     },
     {
       "id": "829e2410-a8d0-11ee-bd47-a5569e928f93",
@@ -70,25 +70,16 @@
           "title": "G",
           "type": "Les Paul",
           "year": "2001",
-          "price": 3333
+          "price": "3333"
         }
       ],
-      "price": 3333
+      "price": "3333"
     },
     {
-      "id": "38b54f00-a8d9-11ee-9e8e-f5b65484620e",
+      "id": "ac473190-a8e8-11ee-9109-3171b639d3e5",
       "userid": "3736e2d0-a8cd-11ee-af8b-91b17b257c51",
-      "title": "g",
-      "models": [
-        {
-          "id": "3c3acc40-a8d9-11ee-9e8e-f5b65484620e",
-          "title": "q",
-          "type": "qq",
-          "year": "q",
-          "price": 1
-        }
-      ],
-      "price": 1
+      "title": "Gibson Guitars",
+      "models": []
     }
   ]
 }
